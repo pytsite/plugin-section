@@ -1,0 +1,19 @@
+{
+  "description": {
+    "en": "Section",
+    "ru": "Section",
+    "uk": "Section"
+  },
+  "url": "https://github.com/pytsite/plugin-section",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "taxonomy"
+    ]
+  }
+}
