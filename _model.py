@@ -1,4 +1,4 @@
-"""PytSite Section Plugin Models.
+"""PytSite Section Plugin Models
 """
 from pytsite import events as _events
 from plugins import taxonomy as _taxonomy

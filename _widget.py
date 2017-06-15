@@ -1,4 +1,4 @@
-"""
+"""PytSite Section Plugin Widgets
 """
 from plugins import taxonomy as _taxonomy
 
@@ -8,7 +8,7 @@ __license__ = 'MIT'
 
 
 class SectionSelect(_taxonomy.widget.TermSelect):
-    """Content Section Select Widget.
+    """Section Select Widget.
     """
 
     def __init__(self, uid: str, **kwargs):
