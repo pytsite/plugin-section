@@ -1,4 +1,6 @@
 {
+  "name": "plugins.section",
+  "version": "0.1.2",
   "description": {
     "en": "Section",
     "ru": "Section",
