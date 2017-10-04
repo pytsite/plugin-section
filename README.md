@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 1.0 (2017-10-04)
+Added `field.Section` ODM field.
+
+
 ### 0.1.2 (2017-08-27)
 `plugin.json` updated.
 
