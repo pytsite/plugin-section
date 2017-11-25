@@ -9,7 +9,7 @@ __license__ = 'MIT'
 
 
 class Section(_taxonomy.model.Term):
-    """Section Model.
+    """Section Model
     """
 
     def _pre_delete(self, **kwargs):
