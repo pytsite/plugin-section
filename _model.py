@@ -15,4 +15,4 @@ class Section(_taxonomy.model.Term):
     def _pre_delete(self, **kwargs):
         super()._pre_delete(**kwargs)
 
-        _events.fire('section.pre_delete', section=self)
+        _events.fire('section@pre_delete', section=self)
