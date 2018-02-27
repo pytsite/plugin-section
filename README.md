@@ -4,6 +4,12 @@
 ## Changelog
 
 
+### 2.3 (2017-12-27)
+
+- Automatic setting of `order` added.
+- Field `weight` removed.
+
+
 ### 2.2 (2017-12-27)
 
 Support for nested sections added.
