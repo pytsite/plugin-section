@@ -1,6 +1,6 @@
 {
   "name": "section",
-  "version": "2.1",
+  "version": "2.2",
   "description": {
     "en": "Section",
     "ru": "Section",
@@ -15,8 +15,8 @@
   "requires": {
     "packages": [],
     "plugins": [
-      "odm",
-      "taxonomy"
+      "taxonomy>=2.6.1",
+      "widget>=1.3"
     ]
   }
 }
