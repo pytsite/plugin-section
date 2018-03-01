@@ -18,13 +18,6 @@ class Section(_taxonomy.model.Term):
 
         self.remove_field('weight')
 
-    def _pre_save(self, **kwargs):
-        super()._pre_save()
-
-        if self.is_new and self.has_field('order') and not self.f_get('order'):
-            e = _taxonomy.find(self.model).eq('_parent', self.parent).sort([('order', _odm.I_DESC)]).first()
-            self.f_set('order', ((int(ceil(e.f_get('order') / 10.0)) * 10) + 10) if e else 10)
-
     def _pre_delete(self, **kwargs):
         super()._pre_delete(**kwargs)
 

@@ -4,13 +4,18 @@
 ## Changelog
 
 
-### 2.3 (2017-12-27)
+### 2.4 (2018-03-01)
+
+Automatic setting of `order` moved to the `taxonomy.Term`.
+
+
+### 2.3 (2018-02-27)
 
 - Automatic setting of `order` added.
 - Field `weight` removed.
 
 
-### 2.2 (2017-12-27)
+### 2.2 (2018-02-27)
 
 Support for nested sections added.
 
