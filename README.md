@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.0 (2018-03-18)
+
+Support for `taxonomy-3.0`.
+
+
 ### 2.4 (2018-03-01)
 
 Automatic setting of `order` moved to the `taxonomy.Term`.

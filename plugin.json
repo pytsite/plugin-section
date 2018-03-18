@@ -1,6 +1,6 @@
 {
   "name": "section",
-  "version": "2.4",
+  "version": "3.0",
   "description": {
     "en": "Section",
     "ru": "Section",
@@ -13,9 +13,8 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": [],
     "plugins": [
-      "taxonomy>=2.7",
+      "taxonomy>=3.0",
       "widget>=1.3"
     ]
   }

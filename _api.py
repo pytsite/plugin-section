@@ -10,16 +10,16 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
+def dispense(title: str, alias: str = None, language: str = None, parent: _model.Section = None) -> _model.Section:
+    """Create a new tag
+    """
+    return _taxonomy.dispense('section', title, alias, language, parent)  # type: _model.Section
+
+
 def get(language: str = None) -> _Iterable[_model.Section]:
     """Get sections
     """
     return _taxonomy.find('section', language).sort([('order', _odm.I_ASC)]).get()
-
-
-def dispense(title: str, alias: str = None, language: str = None) -> _model.Section:
-    """Get or create section
-    """
-    return _taxonomy.dispense('section', title, alias, language)  # type: _model.Section
 
 
 def find_by_title(title: str, language: str = None) -> _Optional[_model.Section]:
