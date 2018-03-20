@@ -4,6 +4,12 @@
 ## Changelog
 
 
+### 3.0.1 (2018-03-20)
+
+Default value of argument `sort_field` of
+`widget.SectionSelect.__init()__` set to 'title'.
+
+
 ### 3.0 (2018-03-18)
 
 Support for `taxonomy-3.0`.

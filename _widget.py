@@ -14,4 +14,6 @@ class SectionSelect(_taxonomy.widget.TermSelect):
     def __init__(self, uid: str, **kwargs):
         """Init.
         """
-        super().__init__(uid, model='section', caption_field='title', **kwargs)
+        kwargs.setdefault('sort_field', 'title')
+
+        super().__init__(uid, model='section', **kwargs)
