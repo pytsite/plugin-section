@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.0.2 (2018-03-22)
+
+`plugin.json` fixed.
+
+
 ### 3.0.1 (2018-03-20)
 
 Default value of argument `sort_field` of
