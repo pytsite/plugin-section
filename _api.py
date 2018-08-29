@@ -25,10 +25,10 @@ def get(language: str = None) -> _Iterable[_model.Section]:
 def find_by_title(title: str, language: str = None) -> _Optional[_model.Section]:
     """Find section by title
     """
-    return _taxonomy.find_by_title('section', title, language)  # type: _Optional[_model.Section]
+    return _taxonomy.get('section', title, language)  # type: _Optional[_model.Section]
 
 
 def find_by_alias(alias: str, language: str = None) -> _Optional[_model.Section]:
     """Find section by alias
     """
-    return _taxonomy.find_by_alias('section', alias, language)  # type: _Optional[_model.Section]
+    return _taxonomy.get('section', alias=alias, language=language)  # type: _Optional[_model.Section]
