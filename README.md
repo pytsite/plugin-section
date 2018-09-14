@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 3.1.1 (2018-09-14)
+
+Cleanup.
+
+
 ### 3.1 (2018-08-29)
 
 Support of `taxonomy-4.0`.

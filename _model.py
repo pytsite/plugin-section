@@ -1,12 +1,11 @@
 """PytSite Section Plugin Models
 """
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
-from math import ceil
 from pytsite import events as _events
-from plugins import odm as _odm, taxonomy as _taxonomy, widget as _widget
+from plugins import taxonomy as _taxonomy, widget as _widget
 
 
 class Section(_taxonomy.model.Term):

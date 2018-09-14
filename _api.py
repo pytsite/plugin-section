@@ -1,13 +1,12 @@
 """PytSite Section Plugin API
 """
+__author__ = 'Oleksandr Shepetko'
+__email__ = 'a@shepetko.com'
+__license__ = 'MIT'
 
 from typing import Iterable as _Iterable, Optional as _Optional
 from plugins import odm as _odm, taxonomy as _taxonomy
 from . import _model
-
-__author__ = 'Alexander Shepetko'
-__email__ = 'a@shepetko.com'
-__license__ = 'MIT'
 
 
 def dispense(title: str, alias: str = None, language: str = None, parent: _model.Section = None) -> _model.Section:

@@ -1,10 +1,10 @@
 """PytSite Section Plugin Widgets
 """
-from plugins import taxonomy as _taxonomy
-
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from plugins import taxonomy as _taxonomy
 
 
 class SectionSelect(_taxonomy.widget.TermSelect):

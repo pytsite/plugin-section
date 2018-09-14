@@ -1,10 +1,10 @@
 """PytSite Section Plugin ODM Fields
 """
-from plugins import odm as _odm
-
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
+
+from plugins import odm as _odm
 
 
 class Section(_odm.field.Ref):
