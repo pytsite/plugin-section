@@ -11,8 +11,6 @@ from ._model import Section
 
 
 def plugin_load():
-    from pytsite import lang
     from plugins import taxonomy
 
-    lang.register_package(__name__)
     taxonomy.register_model('section', Section, 'section@sections')
