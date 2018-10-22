@@ -1,6 +1,6 @@
 {
   "name": "section",
-  "version": "4.0",
+  "version": "4.1",
   "description": {
     "en": "Section",
     "ru": "Section",
@@ -16,7 +16,7 @@
     "pytsite": ">=8",
     "plugins": {
       "taxonomy": "5.x",
-      "widget": "3.x"
+      "widget": "4.x"
     }
   }
 }
