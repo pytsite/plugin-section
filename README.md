@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.2 (2018-11-14)
+
+Default search limit increased to 100 in `widget.SectionSelect`.
+
+
 ### 4.1 (2018-10-22)
 
 Support of `widget-4.x`.
