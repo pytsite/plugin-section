@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.2.1 (2018-11-16)
+
+Field name error fixed.
+
+
 ### 4.2 (2018-11-14)
 
 Default search limit increased to 100 in `widget.SectionSelect`.

@@ -15,6 +15,6 @@ class SectionSelect(_taxonomy.widget.TermSelect):
         """Init.
         """
         kwargs.setdefault('limit', 100)
-        kwargs.setdefault('sort_field', 'title')
+        kwargs.setdefault('sort_by', 'title')
 
         super().__init__(uid, model='section', **kwargs)
