@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.2.2 (2019-01-08)
+
+`widget.SectionSelect.minimum_input_length`'s default value set to `0`.
+
+
 ### 4.2.1 (2018-11-16)
 
 Field name error fixed.
