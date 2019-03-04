@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 4.3 (2019-03-04)
+
+Support of `odm-6.0`.
+
+
 ### 4.2.2 (2019-01-08)
 
 `widget.SectionSelect.minimum_input_length`'s default value set to `0`.

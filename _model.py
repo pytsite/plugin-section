@@ -17,8 +17,8 @@ class Section(_taxonomy.model.Term):
 
         self.remove_field('weight')
 
-    def _pre_delete(self, **kwargs):
-        super()._pre_delete(**kwargs)
+    def _on_pre_delete(self, **kwargs):
+        super()._on_pre_delete(**kwargs)
 
         _events.fire('section@pre_delete', section=self)
 
